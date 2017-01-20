@@ -1,0 +1,5 @@
+<form #f="ngForm" (ngSubmit)="onSubmit(f)" *ngIf="!email">
+  <input name="loginEmail" type="email" placeholder="E-mail" ngModel/>
+  <input name="loginPassword" type="password" placeholder="Password" ngModel/>
+  <button>Login</button>
+</form>
