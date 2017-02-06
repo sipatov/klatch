@@ -1,0 +1,18 @@
+.accelerated
+  -webkit-transform: translate3d(0,0,0)
+  -moz-transform: translate3d(0,0,0)
+  -ms-transform: translate3d(0,0,0)
+  -o-transform: translate3d(0,0,0)
+  transform: translate3d(0,0,0)
+
+.bg-hover
+  @extend .accelerated
+  transition: background-color 0.1s
+  border-radius: 5px
+  background-color: transparent
+
+  &:hover
+    background-color: #69D2E7
+
+.small-logo
+  width: 20px
